@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/configuracio"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="5"
+        android:title="@string/menuconfiguracio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/acercaDe"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="10"
+        android:title="@string/menuacercade"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/cercar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="115"
+        android:title="@string/menucercar"
+        app:showAsAction="always|collapseActionView" />
+</menu>

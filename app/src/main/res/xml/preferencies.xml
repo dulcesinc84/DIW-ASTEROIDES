@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:key="@string/pa_key">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/pa1_key"
+        android:summary="@string/p1_summary"
+        android:title="@string/p1_title"
+        tools:key="@string/pa1_key" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/tipusGrafics"
+        android:entryValues="@array/tipusGraficsValors"
+        android:key="@string/p2_key"
+        android:summary="@string/p2_summary"
+        android:title="@string/p2_title" />
+    <EditTextPreference
+        android:defaultValue="3"
+        android:key="@string/p3_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/p3_summary"
+        android:title="@string/p3_title" />
+
+    <PreferenceCategory android:title="@string/pTitleMulti">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pKeyMulti"
+            android:title="@string/multi_title" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="@string/pKeyMaxJugadores"
+            android:title="@string/pTitleMaxJugadores" />
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/tipoConexion"
+            android:entryValues="@array/tipoConexionValor"
+            android:key="@string/pKeyTipoConexion"
+            android:title="@string/pTitleTipoConexion" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/pKeyCategoriaControl"
+        android:title="@string/pTitleControlNave">
+        <ListPreference
+            android:defaultValue="1"
+            android:title="@string/pa4_title"
+            android:entries="@array/sensors"
+            android:entryValues="@array/sensorsValors"
+            android:key="@string/pa4_key"
+            android:summary="@string/pa4_summary"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

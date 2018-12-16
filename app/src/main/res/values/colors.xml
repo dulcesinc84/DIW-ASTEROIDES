@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#ffbbd4</color>
+
+
+    <color name ="colortitulo">#3e2f36</color>
+    <color name ="colorBagroundLayout">#FFF5DAE6</color>
+    <!-- Creacion de mi tema.-->
+    <color name ="colorBagroundButton">#d181a4</color>
+</resources>

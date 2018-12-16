@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    style="@style/EstiloLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/layout_padding_all">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/EstiloTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/app_title" />
+
+    <TableLayout
+        android:id="@+id/TabletLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <Button
+                android:id="@+id/button1"
+                style="@style/EstiloBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:freezesText="false"
+                android:text="@string/boton_jugar"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/button2"
+                style="@style/EstiloBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="2dp"
+                android:text="@string/boton_configurar"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/button3"
+                style="@style/EstiloBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:onClick="llancarAcercaDe"
+                android:text="@string/boton_acercaDe"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/EstiloBoton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/boton_Salir"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+            <android.gesture.GestureOverlayView
+                android:id="@+id/gestures"
+                android:layout_width="wrap_content"
+                android:layout_height="98dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="6936.39"
+                android:fadeOffset="800"
+                android:gestureColor="@color/colorPrimary"
+                android:gestureStrokeType="multiple" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

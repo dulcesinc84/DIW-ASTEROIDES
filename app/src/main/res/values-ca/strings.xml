@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicació1</string>
+    <string name="app_title">Aplicació</string>
+    <string name="boton_jugar">Jugar</string>
+    <string name="boton_configurar">Configuració</string>
+    <string name="boton_acercaDe">Sobre</string>
+    <string name="boton_Salir">Sortir</string>
+    <string name="text_acercaDe">Aquesta aplicació ha estat desenvolupada com a exemple en el mòdul de Disseny d\'Interfícies Web per
+     demostrar com es poden llançar noves activitats des de l\'activitat principal.</string>
+
+    <string name="menuconfiguracio">Configuració</string>
+    <string name="menuacercade">Sobre ...</string>
+    <string name="menucercar">Cercar ...</string>
+
+
+    <string name="pa_key"> preferencies_principal</string>
+    <string name="pa1_key">musica</string>
+    <string name="p1_title">Reproduir Música</string>
+    <string name="p1_summary">Es reprodueix música de fons</string>
+    <string name="p2_key">grafics</string>
+    <string name="p2_title">Tipus de gràfics</string>
+    <string name="p2_summary">S\'escull la representació de gràfics</string>
+    <string name="p3_key">fragments</string>
+    <string name="p3_title">Nombre de fragments</string>
+    <string name="p3_summary">En quants segments es divideix un asteroide</string>
+
+
+    <string name="pTitleMulti">Mode multijugador</string>
+
+    <string name="multi_title">Activa multijugadors</string>
+    <string name="pKeyMulti">Multijugador</string>
+
+    <string name="pTitleMaxJugadores">Màxim de jugadors</string>
+    <string name="pKeyMaxJugadores">maximoJugadores</string>
+
+    <string name="pTitleTipoConexion">Tipus de connexió</string>
+    <string name="pKeyTipoConexion">tipoConexion</string>/string>
+
+
+
+
+    <string name="pKeyCategoriaControl">controlNave</string>
+    <string name="pKeyControlPantalla">pantalla</string>
+    <string name="pKeyControlSensor">sensor</string>
+    <string name="pTitleControlPantalla">Pantalla</string>
+    <string name="pTitleControlSensor">Sensores</string>
+    <string name="pTitleControlNave">Modo de Control de Nave</string>
+    <string name="pa4_title">Sensores</string>
+    <string name="pa4_key">sensors</string>
+    <string name="pa4_summary">Escoge el tipo de sensor que se utilizara para dirigir la nave</string>
+</resources>
